@@ -19,7 +19,7 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
 
 1. Open a bash terminal by clicking 'Terminal' tab in the RStudio
 
-<img src="images/GEMS-R-Studio-Terminal.png" width=600 alt="GEMS Logo" title="GEMS" />
+<img src="images/GEMS-R-Studio-Terminal.png" width=600 alt="R-Terminal" title="R-Terminal" />
 
 1. If the directories `classes\GEMSX004` were not created before, create directories for this class in the bash terminal using the following four commands 
     ```shell
