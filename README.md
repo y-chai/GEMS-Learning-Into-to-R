@@ -7,7 +7,8 @@ Welcome to **GEMS X004 Introduction to Data Analysis with R**.
 This workshop is part of GEMS Learning series on working with and analyzing agricultural data in R.  
 
 ## Prerequisites: 
-Access to internet and a (GEMS Platform)[https://gems.agroinformatics.org/webui/#] user account  
+- Access to internet
+- [GEMS Platform](https://gems.agroinformatics.org/webui/#) user account  
 
 
 ## Class Setup
