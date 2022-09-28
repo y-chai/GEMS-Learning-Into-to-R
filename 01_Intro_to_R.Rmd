@@ -1,0 +1,67 @@
+---
+title: "Introduction to R"
+author: "Yuan Chai"
+date: '2022-09-28'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](images/GEMS%20long.png)
+
+# Introduction to Data Analysis with R
+
+## **Instructors**
+
+Yuan Chai (chaix026\@umn.edu)\
+Ali Joglekar (joglekar\@umn.edu)\
+
+## **Module Outline**
+
+[Introduction to R & RStudio]
+
+[R Basics]
+
+[Data Analysis Workflow]
+
+-   [Import Data]
+
+-   [Explore Data]
+
+-   [Data Analysis: Linear Regression]
+
+-   [Export and Report]
+
+## Introduction to R & RStudio
+
+### Advantage of using R  
+
+-   Open-source with a large and constantly growing community of users
+
+-   Explicitly document analysis step-by-step such that it is easy to update and to expand
+
+-   Easily re-use code for similar applications with different data
+
+-   Fully reproducible, which makes it straightforward for others to comprehend and validate results
+
+GEMS Platform has built-in support for R and RStudio for subscribed GEMS users.
+
+To use RStudio on GEMS Platform, from GEMS Platform homepage, click `ANALYZE > RStudio`
+
+![](images/GEMS-R-Stuido-Link.PNG){width="366"}
+
+## R Basics
+
+## Data Analysis Workflow
+
+### Import Data
+
+### Explore Data
+
+### Data Analysis: Linear Regression
+
+### Export and Report
+
+## 
