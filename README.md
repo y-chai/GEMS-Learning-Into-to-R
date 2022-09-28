@@ -15,9 +15,11 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
 1. Login to GEMS Platform at https://gems.agroinformatics.org/webui/#
     - GEMS Platform uses Globus to authenticate your account, so if your institution is already linked to Globus (for example, University of Minnesota and many other universities), you can search and select your institution from the list and use your institutional account to log into GEMS Platform. Alternatively, you can log in using Google or ORCID iD, or create  your own Globus account to log in.   
 
-1. Once logged in, click `Analyze > JupyterLab` from the homepage
+1. Once logged in, click `Analyze > RStudio` from the homepage
 
-1. Open a bash terminal by clicking 'Terminal' icon in the Launcher **OR** by clicking `File > New > Terminal`
+1. Open a bash terminal by clicking 'Terminal' tab in the RStudio
+
+<img src="images/GEMS-R-Studio-Terminal.png" width=600 alt="GEMS Logo" title="GEMS" />
 
 1. If the directories `classes\GEMSX004` were not created before, create directories for this class in the bash terminal using the following four commands 
     ```shell

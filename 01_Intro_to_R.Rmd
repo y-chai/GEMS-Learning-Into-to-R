@@ -20,7 +20,7 @@ Ali Joglekar (joglekar\@umn.edu)\
 
 ## **Module Outline**
 
-[Introduction to R & RStudio]
+[Introduction to R & RStudio](#introduction-to-r-rstudio)
 
 [R Basics]
 
@@ -34,9 +34,9 @@ Ali Joglekar (joglekar\@umn.edu)\
 
 -   [Export and Report]
 
-## Introduction to R & RStudio
+## Introduction to R & RStudio {#introduction-to-r-rstudio}
 
-### Advantage of using R  
+### Advantage of using R
 
 -   Open-source with a large and constantly growing community of users
 
@@ -45,6 +45,8 @@ Ali Joglekar (joglekar\@umn.edu)\
 -   Easily re-use code for similar applications with different data
 
 -   Fully reproducible, which makes it straightforward for others to comprehend and validate results
+
+### RStudio on GEMS Platform
 
 GEMS Platform has built-in support for R and RStudio for subscribed GEMS users.
 
