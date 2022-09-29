@@ -1,0 +1,167 @@
+---
+title: "Data Analysis Workflow"
+author: "Yuan Chai"
+date: '2022-09-29'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data Analysis Workflow
+
+![](images/data-science.png){width="600"}
+
+~(image source: ["R for Data Science"](https://r4ds.had.co.nz/introduction.html) by Hadley Wickham and Garrett Grolemund)~
+
+**Typical data analysis workflow includes these following steps:**
+
+-   Import your data into R
+
+-   Data wrangling
+
+    -   Tidy/clean your data
+
+    -   Data transformation
+
+    -   Summary statistics
+
+-   Visualization
+
+-   Models / Analysis
+
+-   Output / Communication
+
+## Workspace setup
+
+### Start with a clean workspace
+
+```{r clean}
+rm(list=ls())
+```
+
+### Load packages
+
+```{r loadpackage}
+library(stargazer)
+```
+
+## Import Data
+
+### Import data from files
+
+```{r import}
+# import from .csv files
+
+#---- fread function from data.table
+dat_farm <- read.csv("./data/dat_farm.csv")
+
+#--- Preview data
+head(dat_farm)
+
+```
+
+### Create new variables
+
+```{r}
+# create a new variable which is the sqaured NPK
+dat_farm$NPKsq <- (dat_farm$NPK)^2
+
+#--- Preview data
+head(dat_farm)
+```
+
+### Summary statistics
+
+```{r}
+# dataframe structure
+str(dat_farm)
+```
+
+```{r}
+# summary statistics
+summary(dat_farm)
+```
+
+```{r}
+# Calculate mean and standard deviations for a single variable
+mean(dat_farm$Yield)
+sd(dat_farm$Yield)
+```
+
+```{r}
+# Use the stargazer function to generate well-formated summary statistics
+stargazer(dat_farm, type = "text", title="Descriptive statisics", digits=2)
+```
+
+## Simple plots
+
+```{r}
+# Histogram
+hist(dat_farm$Yield)
+```
+
+```{r}
+# You can change the number of bins in the histogram
+hist(dat_farm$Yield, breaks = 10)
+```
+
+```{r}
+# Scatterplot
+plot(x = dat_farm$NPK, y=dat_farm$Yield)
+```
+
+## Simple regression
+
+### OLS: yield \~ fertilizer
+
+```{r ols}
+ols_fert1 <- lm(Yield ~ NPK, data=dat_farm)
+summary(ols_fert1)
+```
+
+### OLS: yield \~ fertilizer + fertilizer\^2
+
+```{r ols2}
+ols_fert2 <- lm(Yield ~ NPK + NPKsq, data=dat_farm)
+summary(ols_fert2)
+```
+
+### OLS: yield \~ fertilizer + fertilizer\^2 + tractor
+
+```{r ols3}
+ols_fert3 <- lm(Yield ~ NPK + NPKsq + Tractor, data=dat_farm)
+summary(ols_fert3)
+```
+
+### Comparison of models
+
+If we wish to compare regression models that are nested in order to see if it was worthwhile adding a new predictor variable, we can perform the `anova()` test.
+
+```{r}
+anova(ols_fert1, ols_fert2, ols_fert3)
+```
+
+## Export results
+
+Since we created new variables, we might wish to save the new dataset into a new csv file
+
+```{r}
+# Write data to csv file
+write.csv(dat_farm, file="./data/02_dat_farm_v2.csv")
+```
+
+Write summary statistics into txt file
+
+```{r}
+# Data summary statistics
+stargazer(dat_farm, type = "text", title="Descriptive statisics", digits=2, out="./results/02_summary_stat.txt")
+```
+
+Write the regression table into txt file
+
+```{r}
+# Regression results
+stargazer(ols_fert1, ols_fert2, ols_fert3, type = "text", digits=2, out="./results/02_ols.txt")
+```

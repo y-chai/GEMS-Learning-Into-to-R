@@ -1,0 +1,111 @@
+---
+title: "Exercise: Data Analysis Workflow"
+author: "Yuan Chai"
+date: '2022-09-29'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercise: Farm Data Analysis 
+
+In this exercise, you will work through a typical data analysis workflow using the `02_df_farm_v2.csv` data file we created in class. In this exercise, you will explore the differences in fertilizer use and farm yield among rich, mid, and poor income countries.
+
+Follow this general template, write your own code and modify as needed to document your own work.
+
+## Workspace setup
+
+### Start with a clean workspace
+
+```{r}
+
+```
+
+### Load packages
+
+```{r}
+
+```
+
+## Import Data
+
+### Import data from files
+
+```{r}
+# import file "./data/02_dat_farm_v2.csv"
+
+```
+
+### Create new datasets
+
+```{r}
+# create a new dataframe with data only from rich country
+
+# create a new dataframe with data only from mid income country
+
+# create a new dataframe with data only from poor income country
+
+```
+
+### Summary statistics
+
+```{r}
+# dataframe structure
+
+```
+
+```{r}
+# Use the stargazer function to generate well-formated summary statistics
+
+```
+
+## Simple plots
+
+```{r}
+# Histogram for rich country
+
+# Histogram for mid income country
+
+# Histogram for poor country
+
+```
+
+```{r}
+# Scatterplots
+
+
+```
+
+## Simple regression
+
+### OLS
+
+```{r}
+# Run OLS separately for thress income groups
+
+```
+
+## Export results
+
+Since we created new variables, we might wish to save the new datasets into new csv files
+
+```{r}
+# Write data to csv file
+
+```
+
+Write summary statistics into txt file
+
+```{r}
+# Data summary statistics
+
+```
+
+Write the regression table into txt file
+
+```{r}
+# Regression results
+
+```
