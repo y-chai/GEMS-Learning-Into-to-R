@@ -40,4 +40,4 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
     ```
 
 ## Class and Exercises
-In your JupyterLab environment, open the newly cloned directory `GEMS-Learning-Intro-to-R` and then follow along for in-class exercises 
+In your RStudio environment, open the newly cloned directory `GEMS-Learning-Intro-to-R` and then follow along for in-class exercises 
