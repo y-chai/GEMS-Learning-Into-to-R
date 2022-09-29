@@ -23,13 +23,19 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
 
 4.  If the directories `classes\GEMSX004` were not created before, create directories for this class in the bash terminal using the following four commands
 
-    `mkdir classescd classesmkdir GEMSX004cd GEMSX004`
+        mkdir classes
+        cd classes
+        mkdir GEMSX004
+        cd GEMSX004
 
-    If these directories already exist, use the following commands to change to this directory:\
-    `cd classescd GEMSX003`
+    If these directories already exist, use the following commands to change to this directory:
 
-5.  Clone repository for this classes\
-    `git clone https://github.com/y-chai/GEMS-Learning-Intro-to-R.git`
+        cd classes
+        cd GEMSX004
+
+5.  Clone repository for this classes
+
+        git clone https://github.com/y-chai/GEMS-Learning-Intro-to-R.git
 
 ## Class and Exercises
 
