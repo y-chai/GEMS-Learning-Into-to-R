@@ -317,7 +317,7 @@ Once a package is installed, we can then use this package by loading it with the
 
 ```{r}
 # load a library
-library(ggplot2)
+# library(ggplot2)
 ```
 
 ------------------------------------------------------------------------
