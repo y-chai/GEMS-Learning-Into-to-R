@@ -34,7 +34,7 @@ Follow this general template, write your own code and modify as needed to docume
 ### Import data from files
 
 ```{r}
-# import file "./data/02_dat_farm_v2.csv"
+# import file "./results/02_dat_farm_v2.csv"
 
 ```
 

@@ -145,17 +145,24 @@ anova(ols_fert1, ols_fert2, ols_fert3)
 
 ## Export results
 
+First, create a "results" folder to save our results
+
+```{r}
+dir.create("./results")
+```
+
 Since we created new variables, we might wish to save the new dataset into a new csv file
 
 ```{r}
 # Write data to csv file
-write.csv(dat_farm, file="./data/02_dat_farm_v2.csv")
+write.csv(dat_farm, file="./results/02_dat_farm_v2.csv")
 ```
 
 Write summary statistics into txt file
 
 ```{r}
 # Data summary statistics
+
 stargazer(dat_farm, type = "text", title="Descriptive statisics", digits=2, out="./results/02_summary_stat.txt")
 ```
 
