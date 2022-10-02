@@ -273,7 +273,7 @@ Subset for the rainfall of February and March
 
 Answer:
 
-``` R
+``` r
 # Create a vector named months with values of ("Jan", "Feb", "Mar")
 months <- c("Jan", "Feb", "Mar")
 
@@ -333,7 +333,7 @@ Install the `stargazer` package for well-formatted Regression and Summary Statis
 
 Answer:
 
-``` R
+``` r
 # install the stargazer package
 install.packages("stargazer")
 ```

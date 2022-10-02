@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Exercise: Farm Data Analysis 
+## Exercise: Farm Data Analysis
 
 In this exercise, you will work through a typical data analysis workflow using the `02_df_farm_v2.csv` data file we created in class. In this exercise, you will explore the differences in fertilizer use and farm yield among rich, mid, and poor income countries.
 
