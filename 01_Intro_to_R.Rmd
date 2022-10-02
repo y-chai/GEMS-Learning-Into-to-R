@@ -32,7 +32,7 @@ In R, an analysis is normally broken down into a series of steps. Intermediate r
 
 ### Create and Remove an R object
 
-To create an R object, we need to assign a name (and usually a value) to an object
+To create an R object, we need to assign a name (and usually a value) to an object.
 
 -   Object names must start with a letter and can only contain letters, numbers, periods, and underscores.
 

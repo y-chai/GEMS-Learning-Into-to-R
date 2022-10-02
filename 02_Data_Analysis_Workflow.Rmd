@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ~(image source: ["R for Data Science"](https://r4ds.had.co.nz/introduction.html) by Hadley Wickham and Garrett Grolemund)~
 
-**Typical data analysis workflow includes these following steps:**
+**Typical data analysis workflow steps:**
 
 -   Import your data into R
 

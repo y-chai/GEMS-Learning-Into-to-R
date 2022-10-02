@@ -83,7 +83,7 @@ Follow this general template, write your own code and modify as needed to docume
 ### OLS
 
 ```{r}
-# Run OLS separately for thress income groups
+# Run OLS separately for three income groups
 
 ```
 
