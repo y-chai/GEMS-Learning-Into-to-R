@@ -9,7 +9,7 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
 ## Prerequisites:
 
 -   Access to internet
--   [GEMS Platform](https://gems.agroinformatics.org/webui/#) user account
+-   [GEMS Platform](https://gems.agroinformatics.org/webui/#) user account (Sponsored by 'GEMS Learning' team)
 
 ## Class Setup
 
