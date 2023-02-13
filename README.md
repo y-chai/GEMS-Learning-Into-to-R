@@ -4,7 +4,7 @@
 
 Welcome to **GEMS X004 Introduction to Data Analysis with R**.
 
-This workshop is part of GEMS Learning series on working with and analyzing agricultural data in R.
+This workshop is part of GEMS Learning series on working with and analyzing agricultural data using R.
 
 ## Prerequisites:
 
