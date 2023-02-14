@@ -54,7 +54,7 @@ library(stargazer)
 ```{r import}
 # import from .csv files
 
-#---- fread function from data.table
+#---- read data from a csv file
 dat_farm <- read.csv("./data/dat_farm.csv")
 
 #--- Preview data

@@ -41,11 +41,11 @@ Follow this general template, write your own code and modify as needed to docume
 ### Create new datasets
 
 ```{r}
-# create a new dataframe with data only from rich country
+# create a new dataframe with data only from high-income country
 
-# create a new dataframe with data only from mid income country
+# create a new dataframe with data only from mid-income country
 
-# create a new dataframe with data only from poor income country
+# create a new dataframe with data only from low-income country
 
 ```
 
@@ -64,11 +64,11 @@ Follow this general template, write your own code and modify as needed to docume
 ## Simple plots
 
 ```{r}
-# Histogram for rich country
+# Histogram for high-income country
 
-# Histogram for mid income country
+# Histogram for mid-income country
 
-# Histogram for poor country
+# Histogram for low-income country
 
 ```
 
