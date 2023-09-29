@@ -1,7 +1,7 @@
 ---
 title: "Exercise: Data Analysis Workflow"
 author: "Yuan Chai"
-date: '2023-02-13'
+date: '2023-10-02'
 output: html_document
 ---
 
@@ -20,12 +20,14 @@ Follow this general template, write your own code and modify as needed to docume
 ### Start with a clean workspace
 
 ```{r}
+# use rm(list=ls()) to clear up the worksapce environment
 
 ```
 
 ### Load packages
 
 ```{r}
+# load the stargazer package
 
 ```
 
@@ -34,25 +36,27 @@ Follow this general template, write your own code and modify as needed to docume
 ### Import data from files
 
 ```{r}
-# import file "./results/02_dat_farm_v2.csv"
+# create a dataframe dat_farm2 by importing file "./results/02_dat_farm_v2.csv" 
+# using read.csv function
+
 
 ```
 
 ### Create new datasets
 
 ```{r}
-# create a new dataframe with data only from high-income country
+# create a new dataframe "dat_farm_rich" with data only from high-income country
 
-# create a new dataframe with data only from mid-income country
+# create a new dataframe "dat_farm_mid" with data only from mid-income country
 
-# create a new dataframe with data only from low-income country
+# create a new dataframe "dat_farm_low" with data only from low-income country
 
 ```
 
 ### Summary statistics
 
 ```{r}
-# dataframe structure
+# dataframe structure using str() function
 
 ```
 
@@ -64,16 +68,16 @@ Follow this general template, write your own code and modify as needed to docume
 ## Simple plots
 
 ```{r}
-# Histogram for high-income country
+# Histogram of yield for high-income country
 
-# Histogram for mid-income country
+# Histogram of yield for mid-income country
 
-# Histogram for low-income country
+# Histogram of yield for low-income country
 
 ```
 
 ```{r}
-# Scatterplots
+# Scatterplots of yield vs. NPK
 
 
 ```
