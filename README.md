@@ -30,6 +30,7 @@ This workshop is part of GEMS Learning series on working with and analyzing agri
 
     If these directories already exist, use the following commands to change to this directory:
 
+        cd
         cd classes
         cd GEMSX004
 

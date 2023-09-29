@@ -303,7 +303,7 @@ Base R is extended by means of **packages**, some of which are part of the defau
 
 -   **Contributed packages**: available from the CRAN servers
 
-When we want to use R functions that are not pre-loaded with basic R environment, we need to first install the packages using `installl.packages("mypackage")` command.
+When we want to use R functions that are not pre-loaded with basic R environment, we need to first install the packages using `install.packages("mypackage")` command.
 
 We only need to do this once to have the packages installed in our local computer.
 
