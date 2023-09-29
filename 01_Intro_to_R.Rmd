@@ -308,16 +308,16 @@ When we want to use R functions that are not pre-loaded with basic R environment
 We only need to do this once to have the packages installed in our local computer.
 
 ```{r}
-# install ggplot2 for plotting figures
+# install "xlsx" for reading excel files
 # Remember you only need to run this line of code once
-# install.packages("ggplot2")
+install.packages("xlsx")
 ```
 
 Once a package is installed, we can then use this package by loading it with the `library()` command.
 
 ```{r}
 # load a library
-# library(ggplot2)
+library(xlsx)
 ```
 
 ------------------------------------------------------------------------
