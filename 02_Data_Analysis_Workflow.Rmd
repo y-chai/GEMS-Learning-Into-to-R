@@ -49,7 +49,7 @@ library(stargazer)
 
 ## Import Data
 
-### Import data from files
+### Import data from .csv files
 
 ```{r import}
 # import from .csv files
